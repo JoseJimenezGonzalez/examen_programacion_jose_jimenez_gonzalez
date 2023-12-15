@@ -40,12 +40,13 @@ fun main(){
         Videojuego("Rule of Rose", "PS2", 2010),
         Videojuego("Pokemon Zafiro", "Game Boy", 2006)
     )
+    println("Filtrado por año")
     val listaFiltradaPorAnio = filtraJuegos(listaJuegos, 2006)
     println(listaFiltradaPorAnio)
-
+    println("Lista de plataformas")
     val listaPlataforma = plataformas(listaJuegos)
     println(listaPlataforma)
-
+    println("Mapa de juegos")
     val mapaJuego = mapaJuegos(listaJuegos, 2006)
     println(mapaJuego)
 }
